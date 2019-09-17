@@ -1,0 +1,54 @@
+user48: Werner
+0. hw3 dir and files exist      20 pts: 20
+1. itox.c meets SG 9 rules      15 pts: 12
+  1-comments
+    a. top of file comment:
+      Project:
+      Name   :
+      Date   :
+      File   :
+      Notes  : what it does
+    b. function comment
+    c. inline comment
+  2-linelength
+  3-indent 2 spaces
+  4-headers
+  5-names
+  6-constants
+  7-global var
+  8-functions
+  9-bracket style
+    a. for function
+    b. for ctrl stmts
+    The first bracket in if, else, for, while
+goes on the line with the if, else, for, while,
+but yours are one line down, leading to a lot
+of extra spacing, making it hard to read  -3
+
+2. modules compile noW,noErr    15 pts: 15
+
+3. itox works                   30 pts: 27
+  a. loop gets inputs
+   ./itox < test.txt does not output -3
+  b. quat is right/gets back
+  c. viges is right/gets back
+
+4. readMe answers 3 q's         10 pts: 10
+   Excellent work.
+5. library exists               10 pts: 10
+Ontime? YES
+Total:                                  94 pts
+If you have any questions, please email me. JHD
+
+Your files:
+drwxrwxr-x. 2 user48 user48  4096 Mar  5 16:10 .
+drwx------. 7 user48 user48  4096 Feb 28 22:41 ..
+-rwxrwxr-x. 1 user48 user48 27152 Mar  5 16:10 itox
+-rw-r--r--. 1 user48 user48  4669 Mar  5 12:12 itox.c
+-rw-r--r--. 1 user48 user48  1334 Mar  5 16:06 itoxDriver.c
+-rw-r--r--. 1 user48 user48  1637 Feb 28 22:45 itox.h
+-rw-rw-r--. 1 user48 user48  3536 Mar  5 16:08 itox.o
+-rw-rw-r--. 1 user48 user48  3704 Mar  5 16:09 myLib.a
+-rw-rw-r--. 1 user48 user48   412 Mar  1 21:10 readMe.txt
+-rw-r--r--. 1 user48 user48    20 Feb 28 22:45 test.txt
+
