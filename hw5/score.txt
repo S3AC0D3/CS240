@@ -1,0 +1,72 @@
+.
+..
+cntSort
+cntSort.c
+cntSort.o
+main.c
+readMe.txt
+score.txt
+-----
+icc -Wall -c cntSort.c
+-----
+icc -Wall cntSort.c main.c -o cntSort
+-----
+./cntSort
+m 64, n 1048576, seed 2019
+quicksort takes 77.00 msec
+cntSort takes 3.00 msec
+-----
+cat readMe.txt
+Werner Ordonez
+01765341
+user48
+
+Counting sort is faster than quicksort
+m = 10000
+n = 10000
+
+Quicksort is faster than counting sort 
+m = 10000
+n = 1000000000000
+
+What I learned
+     What I learned from the results is that sometimes counting sort
+is faster than Quicksort and vise versa. The larger the array,
+the slower counting sort is or I get a segmentation fault. It reduces
+memory efficiency and increases space consumption. That's why it is 
+not a good sorting algorithmn for a large range of numbers. Counting 
+sort has a better time complexity but worse space complexity. All in all,
+quicksort is a better choice for a sorting algorithmn when it comes 
+down to a large range but then again counting sort is faster if it is
+a small range.
+-----
+-----
+    (10) 1. (10 points)
+    Yes (a) Existence of the directory /home/user??/hw5
+    Yes (b) Inside hw5: cntSort.c, main.c, and readMe.txt
+    Yes (c) Other files are allowed
+    
+    (40) 2. (40 points) cntSort.c
+    Yes (a) Adherence to the style guidelines
+    Yes (b) Sensible pseudo code, variable names, comments, etc.
+    Yes (c) icc -Wall -c cntSort.c gives no warnings or errors
+    Yes (d) ./cntSort produces correct output
+    
+    (10)3. (10 points) main.c
+    Yes (a) Comments at the beginning of the file
+    Yes (b) icc -Wall cntSort.c main.c -o cntSort gives no warnings or errors
+    
+    (15)4. (40 points) readMe.txt
+    No (a) A pair of m and n such that counting sort is faster than quicksort
+    No (b) Another pair such that quicksort is faster than counting sort
+       m and n values provided don't agree with theory 
+       and don't have actual running time as evidence.  
+       (c) Discussion (at least a paragraph in length): what have you learned 
+	from the results?
+	Good point on space complexity issue of counting sort.
+	correction : counting sort is timely efficient
+	 when array is long and quicksort is not always the best.
+	 -5 
+       (d) At the TAs discretion, excellent discussion will receive extra
+        credit
+Total:75
